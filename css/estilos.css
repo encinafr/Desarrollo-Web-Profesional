@@ -6,21 +6,36 @@
 #  \___/____/____/··
 #  ·················
 */
-body{
-    background: salmon;
-    font-family: helvetica;
-    color: white;
-  
-  }
-  
-  p{
-    font-size: 12px;
-  }
-  
-  #soyunid{
-    color: blue;
-  }
-  
-  .soyunaclase{
-    color: gray;
-  }
+hmtl,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family:Helvetica, sans-serif
+}
+
+nav{
+  display: flex;
+  background-color:#7ACC2D;
+  padding: 10px;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: grey;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
